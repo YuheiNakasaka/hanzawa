@@ -5,7 +5,7 @@ require 'hanzawa/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "hanzawa"
-  spec.version       = "0.0.2"
+  spec.version       = Hanzawa::VERSION
   spec.authors       = ["YuheiNakasaka"]
   spec.email         = ["yuhei.nakasaka@gmail.com"]
   spec.description   = %q{"Hanzawa Naoki" joke module}

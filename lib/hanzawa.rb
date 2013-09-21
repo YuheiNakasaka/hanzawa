@@ -6,10 +6,16 @@ module Hanzawa
   end
 
   def setXBai=(x)
-    @x = x
+    if x.class == Fixnum || x.class == Float
+      @x = x
+    end
   end
 
-  def baigaeshida(int)
-    int * @x
+  def baigaeshida(arg)
+    if arg.class == Fixnum || arg.class == Float || arg.class == String
+      arg * @x
+    else
+      nil
+    end
   end
 end
