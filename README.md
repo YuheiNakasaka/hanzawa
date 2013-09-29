@@ -1,6 +1,6 @@
 # Hanzawa
 
-TODO: Write a gem description
+これはドラマ『半沢直樹』で名物となっている「倍返しだ！」をオマージュしたネタGemです
 
 ## Installation
 
@@ -18,7 +18,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require hanzawa
+class Hanzawa
+    include hanzawa
+end
+
+hanzawa = Hanzawa.new
+hanzawa.baigaeshida(1) # 2
+hanzawa.baigaeshida(100) # 2
+
+hanzawa.setXbai = 100
+hanzawa.baigaeshida(1) # 100
+hanzawa.baigaeshida(2) # 200
+```
 
 ## Contributing
 
