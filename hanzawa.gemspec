@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Hanzawa::VERSION
   spec.authors       = ["YuheiNakasaka"]
   spec.email         = ["yuhei.nakasaka@gmail.com"]
-  spec.description   = %q{"Hanzawa Naoki" joke module} 
+  spec.description   = %q{"Hanzawa Naoki" joke module}
   spec.summary       = %q{"Hanzawa Naoki" joke module}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/YuheiNakasaka/hanzawa"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
