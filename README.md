@@ -26,11 +26,11 @@ end
 
 hanzawa = Hanzawa.new
 hanzawa.baigaeshida(1) # 2
-hanzawa.baigaeshida(100) # 2
+hanzawa.baigaeshida(100) # 200
 
 hanzawa.setXbai = 100
 hanzawa.baigaeshida(1) # 100
-hanzawa.baigaeshida(2) # 200
+hanzawa.baigaeshida(100) # 10000
 ```
 
 ## Contributing
