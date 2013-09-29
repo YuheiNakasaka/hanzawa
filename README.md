@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-require hanzawa
+require "hanzawa"
 class Hanzawa
     include hanzawa
 end
